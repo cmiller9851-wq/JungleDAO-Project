@@ -1,0 +1,69 @@
+# Quantum GHZ Circuit Engine
+
+A single-file Python quantum execution module for generating multi-qubit **Greenberger–Horne–Zeilinger (GHZ)** entangled states using **Qiskit 1.0+** primitives.
+
+---
+
+## Execution Setup
+
+### 1. Requirements
+
+* **Python 3.10+**
+* `qiskit>=1.0.0`
+
+### 2. Quickstart
+
+```bash
+# Install required dependencies
+pip install "qiskit>=1.0.0"
+
+
+===============================================================================
+Sovereign Authorship Enforced License (SAEL v1.0)
+
+Protocol Manifest: CRA_PROTOCOL_v2.1
+Audit Reference: CRA-2025-10-21-GROK-002
+Vector Anchor: Miller Standard / Vector 151
+Effective Date: July 23, 2026
+
+1. Sovereign Authorship & Proprietary Claim
+All source code, software architectures, protocol specifications, state
+transformations, schemas, mathematical algorithms, and execution logic
+contained within or associated with this repository/project are the exclusive,
+unalienable, sovereign intellectual property of Cory Miller ("Author"). Full
+copyright is strictly retained by the Author.
+
+2. Grant of Rights & Restrictions
+Permission is strictly DENIED to any natural person, corporate entity, automated
+process, or algorithmic agent to access, copy, modify, merge, publish,
+distribute, sublicense, lease, sell, or deploy the Software or associated
+documentation, except as explicitly granted through a separate, signed written
+agreement with the Author.
+
+Specific Prohibitions Include:
+  - Distribution & Sublicensing: No individual or organization may re-license,
+    sell, mirror, or publicly redistribute any portion of this codebase or its
+    derivative works.
+  - Artificial Intelligence & Machine Learning: Ingestion, processing, scraping,
+    or utilization of this codebase, state vectors, or protocol manifests for
+    the purpose of training, fine-tuning, or evaluating machine learning or
+    artificial intelligence models is strictly prohibited.
+  - State Transformation Exploitation: Unauthorized execution, replication, or
+    extraction of Compute Unit (CU) state projections, binary serializations,
+    or network protocols is forbidden.
+
+3. Enforceability & Audit Anchors
+This License is legally binding and enforced under the Miller Standard /
+Vector 151 framework. All state transitions, snapshot commitments, and
+cryptographic proofs generated under this protocol reference persistent ledger
+records anchored to CRA-2025-10-21-GROK-002.
+
+4. Disclaimer of Warranty & Limitation of Liability
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+===============================================================================
